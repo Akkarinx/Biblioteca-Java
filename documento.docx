@@ -1,0 +1,115 @@
+sssssssssssssssLUCAS PEDREIRA
+MATHEUS SILVA
+ISAÍAS CARLOS 
+RONALD TEIXIERa
+
+  SUMÁRIO
+
+INTRODUÇÃO 1
+FASE DE PLANEJAMENTO 2
+	    APRESENTAÇÃO DO SISTEMA 2.1
+	    MODELO 2.2
+ENGENHARIA DE REQUISITOS 3
+	    FUNCIONAIS E NÃO FUNCIONAIS 3.1
+     	ELICITAÇÃO DE REQUISITOS 3.2
+CONCLUSÃO 4
+REFERÊNCIAS 5
+
+
+
+1.Introdução
+A proposta do Trabalho é a criação de um software que utilize métodos e técnicas da engenharia de requisitos, tendo em vista o desenvolvimento de um software que possa atender as demandas e problemas com gastos elevados de produtos no ramo de conveniência. Por meio de conversas inicias com o proprietário da empresa, foi proposto a elaboração de um projeto de um sistema de controle de estoque que consiga atender os problemas enfrentados. Nesse trabalho apresenta o Ciclo de Vida Clássico de um software a fase de planejamento onde serão apresentados o sistema e o modelo clássico de processo de desenvolvimento de software 	utilizado, seguindo a análise abortando os requisitos 	funcionais e não-funcionais e elicitação dos requisitos, por fim conclusão. Desejamos que durante o processo de desenvolvimento do projeto todos os integrante da equipe adquiram conhecimentos similar a uma implementação real de um software utilizando a engenharia para auxiliar em um produto final com qualidade e de baixo custo, assim como notamos durante as aulas da professora que os maiores problemas que leva o fracasso de um projeto está na sua má estruturação e falta de levantamento de requisitos, com esse trabalho visamos melhorar nesse ponto para ser um bom profissional.
+
+2. Fase de Planejamento
+
+2.1 A modernização tecnológica trouxe benefícios para empreses de várias formas, como otimização e automatização dos meios produtivos visto a dificuldade da emprese em 	possui um controle de custo bom, será desenvolvido um controle 	de estoque que por meio dele obterá um controle de custos, otimização, flexibilidade, redução de perdas sobre o estoque. Um modelo de processo de desenvolvimento é utilizado para definir 	como as etapas pertencentes ao desenvolvimento do software serão conduzidas, para atingir o objetivo do desenvolvimento, que é a obtenção do software.
+
+2.2 Um dos modelos evolutivos, o modelo Incremental é a combinação entre os modelos linear e de prototipação sugerido por Barry Boehm. O desenvolvimento é dividido em etapas chamadas de incrementos que por meio dele produzira o sistema, até sua versão final. Cada incremento é realizado todo o ciclo do desenvolvimento do software, do planejamento aos testes, em cada etapa concluída será produzida um sistema totalmente funcional. A escolha desse modelo é devido a forma de trabalho que será abordada, trazendo o cliente mais próximo do projeto com isso podendo esclarece seus requisitos e suas prioridades com tal auxílio possui um melhor gerenciamento de riscos assim podendo confirma o resultado depois de cada versão do sistema tornando o software mais flexível.
+
+Figura 1: Modelo Incremental
+Fonte: PRESSMAN (2010)
+
+
+3. Análise (Engenharia de Requisitos)
+
+3.1-Requisitos Funcionais e não Funcionais.
+Requisitos funcionais é a parte de um projeto onde se descreve as ações que um software deve prover, o software de implementação.
+
+Tela de Login:
+O Sistema terá acesso restrito em algumas funcionalidades.
+Operador e Gerente.
+
+Cadastro de Produtos:
+O sistema será capaz de armazenar os dados de todos os produtos desejável com suas respectivas características.
+
+Buscas Produtos:
+O sistema será capaz de realizar buscas através de menus interativos , caracteres ou código.
+
+Editar Produtos:
+O sistema irá permitir ao usuário que após a busca e seleção do item, faça edição dos campos cadastrados e até mesmo a exclusão.
+
+Gerar relatórios:
+O sistema irá ter telas apropriadas para leitura de relatórios e opção para download do mesmo em formato PDF. Esses relatórios devem conter informações sobre os produtos em estoque como: Quantidade, Tempo de Armazenamento, Validade, Valores de compras. 
+Restrição: Perfil Gerente.
+
+Alertas inteligentes:
+O sistema será capaz de alertar os usuários sobre algumas funções como : Produtos em estoque por muito tempo , produtos com tendência de maiores vendas.
+
+Requisitos não funcionais: 
+São as qualidades e restrições que o software deve ter.
+
+Requisitos do produto:
+Confiabilidade – Os dados deverão estar sempre atualizados.
+Velocidade – tempo de resposta não deve passar 2 segs.
+Usabilidade – O Sistema deverá ser amigável, fácil de manusear.
+
+Requisitos Organizacionais:
+Requisitos de Padrões - o relatório deve ser gerado com o slogan do mercado.
+Requisitos Implementação – estabelecer comunicação entre o sistema do caixa com o do estoque.
+
+3.2. Elicitação de Requisitos
+
+Identificação das fontes de informações.
+Para ajudar na implementação do software é necessário a escolha de um grupo de fontes para contribuição no projeto, pensando nisso foi selecionado:
+Stakeholders - Estoquista, Gerente e Caixa.
+Sistema de caixa da empresa.
+
+Coleta de Fatos:
+Nesta etapa é utilizada todas as fontes para saber como será extraída a informação.
+Será necessário conhecer o funcionamento da empresa, começando com uma simples observação da rotina dos empregados e clientes que ali se encontram, com o objetivo de aprender um pouco sobre o processo que será aprimorado a informação com os stakeholders através de entrevistas, processo no qual será mais detalhada no tópico de comunicação.
+
+Comunicação:
+A estratégia que usamos para o levantamento de requisitos foi por meio de uma entrevista semiaberta e conforme a mesma vai avançando, levantamos espécie de protótipos para que possamos ter uma base do que será levantado no Modelo Incremental.
+
+Entrevistas:
+Por que será realizada de forma semiabertas?
+O foco é extrair o máximo de requisitos fundamentais do cliente, utilizando perguntas previamente elaboradas e mantendo a informalidade com o intuito de aumentar o leque de possibilidades que podem sair desta entrevista.
+Obs.: conforme vamos avançando na entrevista será realizado prototipações no próprio local para melhor compreensão do que o cliente deseja que o sistema tenha.
+
+O que motivou a criação deste projeto?
+Foi constatado um problema com as despesas para a manutenção do estoque.
+Trata-se de gastos elevados com produtos que não obtiveram lucro esperado através das vendas.
+O intuito deste projeto é a elaboração de um sistema de controle de estoque que consiga atender as demandas presentes com uma IA (Inteligência artificial) especial para se atentar a este problema.
+
+Quem vai usar a solução?
+O Programa será utilizado pelo: Estoquista: afim de fazer a manutenção dos produtos que entram e saída (quando, por exemplo, o produto excede a data de validade)
+Gestor: afim de receber os relatórios e fazer avaliação mensal das despesas e receitas.
+
+Qual será o benefício econômico para uma solução bem-sucedida?
+Há uma ideia que se concentra na IA, nela o programa percebe e notifica quando estamos enchendo demais o estoque de produtos que não são vendidos satisfatoriamente. Ou quando o produto é vendido rapidamente, e tem potencial para haver mais dele no estoque.
+
+Sobre a efetividade na extração de requisitos?
+Devemos nos fazer essas perguntas:
+As questões fechadas são relevantes e englobam o que se procura de modo satisfatório?
+A parte da entrevista aberta possui potencial para nortear o entrevistado para conseguir mais informações sobre o projeto a ser desenvolvido?
+As questões de modo geral são suficientes?
+
+
+4. Conclusão
+
+Em vista dos argumentos apresentados, concluímos que durante o processo de desenvolvimento do trabalho, os membros da equipe conciliaram os assuntos abordados em sala de aula com o trabalho proposto pela professora Talita Pinheiro, o conhecimento das etapas de um projeto é de extrema importância quando se trata de um desenvolvimento de software pois a “implementação” se trata apenas de uma pequena parte do todo, os maiores fracassos de um projeto é dado pela a má gestão e a despreocupação com os requisitos que o cliente propõe, com esse trabalho é notório a importância da engenharia para evitar uma nova “crise do software”, pois serve de um guia para a entrega de um produto de qualidade, com esse aprendizado é possível até mesmo escolher uma área de atuação no qual estava até então, fora do campo de visão, com isso finalizamos esse trabalho com uma visão diferente e pronto para colocar todo o aprendizado em pratica. 
+
+5. Referências
+
+NEPOMUCENO, D. Modelo incremental, Engenharia de software, 6 de dezembro 2012. Disponível em: <http://engenhariadesoftwareuesb.blogspot.com/2012/12/blog-post.html>
+
